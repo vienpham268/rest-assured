@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29188" started-at="2021-07-25T04:39:16Z" finished-at="2021-07-25T04:39:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29188" started-at="2021-07-25T04:39:16Z" finished-at="2021-07-25T04:39:45Z">
+      <class name="com.petstore.tests.PetTest">
+        <test-method status="PASS" signature="TC_01_getPetsByStatus()[pri:0, instance:com.petstore.tests.PetTest@71b1a49c]" name="TC_01_getPetsByStatus" duration-ms="5658" started-at="2021-07-25T04:39:16Z" finished-at="2021-07-25T04:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_getPetsByStatus -->
+        <test-method status="PASS" signature="TC_02_createPet()[pri:0, instance:com.petstore.tests.PetTest@71b1a49c]" name="TC_02_createPet" duration-ms="5366" started-at="2021-07-25T04:39:21Z" finished-at="2021-07-25T04:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_createPet -->
+        <test-method status="PASS" signature="TC_03_findPetByID()[pri:0, instance:com.petstore.tests.PetTest@71b1a49c]" name="TC_03_findPetByID" duration-ms="7301" started-at="2021-07-25T04:39:27Z" finished-at="2021-07-25T04:39:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_findPetByID -->
+        <test-method status="PASS" signature="TC_04_updateExistingPet()[pri:0, instance:com.petstore.tests.PetTest@71b1a49c]" name="TC_04_updateExistingPet" duration-ms="1858" started-at="2021-07-25T04:39:34Z" finished-at="2021-07-25T04:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_updateExistingPet -->
+        <test-method status="PASS" signature="TC_05_updateExistingPetWithFormData()[pri:0, instance:com.petstore.tests.PetTest@71b1a49c]" name="TC_05_updateExistingPetWithFormData" duration-ms="1835" started-at="2021-07-25T04:39:36Z" finished-at="2021-07-25T04:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_updateExistingPetWithFormData -->
+        <test-method status="PASS" signature="TC_06_uploadImage()[pri:0, instance:com.petstore.tests.PetTest@71b1a49c]" name="TC_06_uploadImage" duration-ms="5105" started-at="2021-07-25T04:39:38Z" finished-at="2021-07-25T04:39:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_uploadImage -->
+        <test-method status="PASS" signature="TC_07_delete()[pri:0, instance:com.petstore.tests.PetTest@71b1a49c]" name="TC_07_delete" duration-ms="1975" started-at="2021-07-25T04:39:43Z" finished-at="2021-07-25T04:39:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_07_delete -->
+      </class> <!-- com.petstore.tests.PetTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
